@@ -22,6 +22,29 @@
   color: #61dafb;
 }
 
+p {
+  margin: 0;
+}
+
+.Wrapper {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.GlobalIndent {
+  padding: 50px 0;
+}
+
+.Title {
+  text-align: left;
+}
+
+.react-tel-input {
+  max-width: 300px;
+  display: flex !important;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

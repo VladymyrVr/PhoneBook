@@ -1,0 +1,17 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+  box-shadow: 0 0 8px rgba(0,0,0,.6);
+}
+
+.Link {
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.Logo {
+  height: 60px;
+  object-fit: cover;
+}

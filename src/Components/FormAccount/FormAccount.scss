@@ -1,0 +1,65 @@
+.Avatar {
+  width: 190px;
+  object-fit: cover;
+}
+
+.AvatarControl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .LogoWrapper {
+    position: relative;
+    margin-right: 15px;
+
+    .DeleteAvatar {
+      position: absolute;
+      font-size: 24px;
+      color: white;
+      right: 0;
+      top: 0;
+      cursor: pointer;
+      transform: rotate(45deg);
+    }
+  }
+}
+
+.PersonInfo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.ContorlButtons {
+  display: flex;
+  justify-content: space-between;
+
+  .PhoneControl {
+    margin: 0 5px 0 auto;
+  }
+}
+
+.PhonesRow {
+  display: flex;
+  margin-bottom: 30px;
+
+  & > * {
+    margin-right: 10px;
+  }
+
+  .PhoneField {
+    position: relative;
+  }
+
+  .DeletePhone {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    transform: rotate(45deg);
+  }
+}
+
+

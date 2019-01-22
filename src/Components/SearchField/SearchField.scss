@@ -1,0 +1,22 @@
+.SearchField {
+  position: relative;
+
+  input {
+    padding: 12px 12px 12px 36px !important;
+  }
+
+  .FindIcon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+  }
+
+  .ClearIcon {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+}
